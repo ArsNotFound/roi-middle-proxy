@@ -1,0 +1,20 @@
+---
+log_level: debug
+
+proxy:
+  port: 3128
+  host: 127.0.0.1
+
+upstream_proxy:
+  http_proxy: http://192.168.122.31:3128
+  https_proxy: http://192.168.122.31:3128
+
+allowed_hosts:
+  - ext.contest.yandex.ru
+  - contest.codeforces.com
+  - clck.yandex.ru
+  - clck.yandex.com
+  - yastatic.net
+  - yandex.st
+  - mds.yandex.net
+  - mc.yandex.ru
